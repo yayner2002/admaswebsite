@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admas University</title>
+    <link
+      rel="shortcut icon"
+      href="images/fev icon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="css/poppins/Poppins-Italic.ttf" />
+    <!-- --------offline version of fontawesome--------------------- -->
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-6.0.0-beta2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-6.0.0-beta2-web/css/all.css"
+    />
+    <!-- -----bootstrap------ -->
+    <!-- <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
+  </head>
+  <body>
+    <section class="about-header">
+      <nav>
+        <a href="index.html"><img src="images/d.png" alt="logo" /></a>
+        <div class="nav-link" id="navlink">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="programs.html">PROGRAMS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificates & Online Programs For 2022</h1>
+    </section>
+    <!-- ----blog page---- -->
+    <section class="blogcontent">
+      <div class="row">
+        <div class="blogleft">
+          <img src="images/certificate.jpg" alt="" />
+          <h2>Our Certificates & Online Programs For 2022</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima,
+            optio soluta, ut sapiente illo laboriosam alias sed voluptates
+            deserunt aperiam totam quos, quidem nostrum debitis amet vero
+            fugiat! Eveniet, commodi.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            modi in, quod quos itaque hic nemo aliquid cumque quae quia nesciunt
+            omnis debitis nobis unde ullam dolore aliquam distinctio minus?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+            temporibus in rem quaerat a error mollitia repudiandae deleniti
+            ullam. Quis, error mollitia dolore quaerat eligendi dolorum beatae
+            temporibus deserunt natus?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta amet
+            corrupti aliquam expedita quia tempora adipisci atque debitis
+            obcaecati, beatae eius harum, aliquid error nam voluptate
+            dignissimos esse vero fuga.
+          </p>
+          <div class="commentbox">
+            <h3>Leave Us Your Comment</h3>
+            <form class="commentform">
+              <div>
+                <input type="text" placeholder="Provide Your Name" />
+              </div>
+              <div>
+                <input type="email" placeholder="Your Email" />
+              </div>
+
+              <div>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  rows="5"
+                  placeholder="Your Comment"
+                ></textarea>
+              </div>
+              <div>
+                <button class="red-btn hero-btn1">Submit Comment</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="blogright">
+          <h3>Blog Categories</h3>
+          <div><span>AI and Robotics</span><span>10</span></div>
+          <div><span>Big Data Analytics</span><span>20</span></div>
+          <div><span>Machine Learning</span><span>15</span></div>
+          <div><span>Computer Science</span><span>50</span></div>
+          <div><span>Data Science</span><span>14</span></div>
+          <div><span>Software Engineering</span><span>23</span></div>
+          <div>
+            <span>Fuculity of Bussiness and Economics</span><span>24</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------Footer section--------- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quidem
+        numquam obcaecati similique illo iste vero laborum! <br />Totam
+        accusamus iusto, ad magni quae odio ea eligendi commodi, optio, sint
+        fugiat!
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+
+        <i class="fab fa-twitter"></i>
+
+        <i class="fab fa-google"></i>
+
+        <i class="fab fa-instagram"></i>
+
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made With <i class="fas fa-heart"></i> By GeezTech Systems</p>
+    </section>
+    <script>
+      let navlink = document.getElementById("navlink");
+      showMenu = () => {
+        return (navlink.style.right = "0");
+      };
+      hideMenu = () => {
+        return (navlink.style.right = "-200px");
+      };
+    </script>
+    <script src="css/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

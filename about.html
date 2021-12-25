@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admas University</title>
+    <link
+      rel="shortcut icon"
+      href="images/fev icon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- --------offline version of fontawesome--------------------- -->
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-6.0.0-beta2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-6.0.0-beta2-web/css/all.css"
+    />
+    <!-- -----bootstrap------ -->
+    <!-- <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
+  </head>
+  <body>
+    <section class="about-header">
+      <nav>
+        <a href="index.html"><img src="images/d.png" alt="logo" /></a>
+        <div class="nav-link" id="navlink">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="programs.html">PROGRAMS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We Are The Largest University in Ethiopia</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+            beatae, provident eaque id debitis molestias dolorem dignissimos
+            magni dolores dolor obcaecati nam consectetur Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Libero beatae, provident eaque id
+            debitis molestias dolorem dignissimos magni dolores dolor obcaecati
+            nam consecteturLorem, ipsum dolor sit amet consectetur adipisicing
+          </p>
+          <a href="#" class="hero-btn1 red-btn">Explore More</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about2.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- --------Footer section--------- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quidem
+        numquam obcaecati similique illo iste vero laborum! <br />Totam
+        accusamus iusto, ad magni quae odio ea eligendi commodi, optio, sint
+        fugiat!
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+
+        <i class="fab fa-twitter"></i>
+
+        <i class="fab fa-google"></i>
+
+        <i class="fab fa-instagram"></i>
+
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made With <i class="fas fa-heart"></i> By GeezTech Systems</p>
+    </section>
+    <script>
+      let navlink = document.getElementById("navlink");
+      showMenu = () => {
+        return (navlink.style.right = "0");
+      };
+      hideMenu = () => {
+        return (navlink.style.right = "-200px");
+      };
+    </script>
+    <script src="css/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
